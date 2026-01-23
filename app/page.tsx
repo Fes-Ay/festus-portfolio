@@ -8,7 +8,7 @@ import Footer from "@/components/footer/Footer";
 import Publication from "@/components/publication/Publication";
 
 const isProd = process.env.NODE_ENV === 'production';
-const prefix = isProd ? '/ekayang-resume' : '';
+const prefix = isProd ? '/ekayang-portfolio' : '';
 
 export default function Home() {
   return (

@@ -5,7 +5,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export', // Required for GitHub Pages
-  basePath: isProd ? '/ekayang-resume' : '',
+  basePath: isProd ? '/ekayang-portfolio' : '',
   images: {
     unoptimized: true, // GitHub Pages doesn't support the Next.js optimization server
   },
