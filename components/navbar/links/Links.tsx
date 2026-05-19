@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import React from 'react'
 
 const isProd = process.env.NODE_ENV === 'production';
-const prefix = isProd ? '/ekayang-resume' : '';
+const prefix = isProd ? '/ekayang-portfolio' : '';
 
 const links = [
     {
