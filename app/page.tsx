@@ -144,6 +144,20 @@ export default function Home() {
                   status="Under Review"
                 />
                 <Publication
+                  date="2026"
+                  title="Automated Shape-Aware Dimensional Classification and Semantic-Instance Segmentation of Steel Structures from Occluded Point Cloud Data"
+                  authors="Rajendran, M., Ayembilla, F.B., Sim, S. H., Kim, M. K., & Yi, C. Y."
+                  venue="Automation in Construction"
+                  status="Under Review"
+                />
+                <Publication
+                  date="CIB W78 2026"
+                  title="GeoAugPT: Deterministic Structural Priors for Indoor Point Cloud Semantic Segmentation in Scan-to-BIM Workflows"
+                  authors="Ayembilla, F.B., & Kim, M. K."
+                  venue="CIB W78 2026 International Conference on IT in Construction"
+                  status="Submitted"
+                />
+                <Publication
                   date="ISARC 2026"
                   title="An Automated Pipeline for Generating a Multi-Layered Spatial Map for Indoor Robot Navigation from BIM Data"
                   authors="Ayembilla F.B., KIM T., KIM M., Seo J., Jung In KIM."
@@ -187,6 +201,9 @@ export default function Home() {
                     operate within a shared BIM-anchored spatial environment for
                     construction and facility management. Includes an IFC-to-robot
                     conversion pipeline generating maps compatible with ROS2 navigation.
+                    Current work investigates a semantic segmentation approach for indoor
+                    structural components (GeoAugPT) to facilitate automated Scan-to-BIM
+                    reconstruction.
                   </p>
                   <p className="text-xs font-mono text-gray-500">
                     Tools: BIM, IFC, ROS2, Gazebo, Python, GLB/JSON/PGM
@@ -196,7 +213,7 @@ export default function Home() {
                 {/* TLS Simulation Framework */}
                 <div className="p-4 bg-gray-900 rounded-lg">
                   <h3 className="text-2xl font-semibold mb-2">Blender-Based TLS Simulation</h3>
-                  <p className="text-xs text-gray-500 mb-2 uppercase tracking-widest">2024 – Present</p>
+                  <p className="text-xs text-gray-500 mb-2 uppercase tracking-widest">2024 – 2025</p>
                   <p className="text-sm text-gray-300 mb-2">
                     A Blender-based Terrestrial Laser Scanner (TLS) simulation framework
                     for generating occlusion-aware MEP point clouds with configurable beam
