@@ -135,7 +135,11 @@ export default function Home() {
                 Publications
               </h2>
 
-              <div className="flex flex-col">
+              {/* Journal Papers */}
+              <h3 className="text-xl font-semibold mb-6 text-gray-300 border-b border-gray-800 pb-2">
+                Journal Articles
+              </h3>
+              <div className="flex flex-col mb-12">
                 <Publication
                   date="2026"
                   title="Improving Cross-Facility Generalization of MEP Semantic Segmentation Using Independent-Source Synthetic Point Clouds"
@@ -150,6 +154,13 @@ export default function Home() {
                   venue="Automation in Construction"
                   status="Under Review"
                 />
+              </div>
+
+              {/* Conference Papers */}
+              <h3 className="text-xl font-semibold mb-6 text-gray-300 border-b border-gray-800 pb-2">
+                Conference Papers
+              </h3>
+              <div className="flex flex-col">
                 <Publication
                   date="CIB W78 2026"
                   title="GeoAugPT: Deterministic Structural Priors for Indoor Point Cloud Semantic Segmentation in Scan-to-BIM Workflows"
