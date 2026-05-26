@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Edwin Kayang",
-  description: "Personal website of Edwin Kayang",
+  title: "Festus Basimtaal Ayembilla",
+  description: "Personal website of Festus Basimtaal Ayembilla",
 };
 
 export default function RootLayout({

@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import React from 'react'
 
 const isProd = process.env.NODE_ENV === 'production';
-const prefix = isProd ? '/ekayang-portfolio' : '';
+const prefix = isProd ? '/festus-portfolio' : '';
 
 const links = [
     {
@@ -18,13 +18,13 @@ const links = [
       isInternal: true,
     },
     {
-      title: "Artifacts",
-      path: "/#artifacts",
+      title: "Projects",
+      path: "/#projects",
       isInternal: true,
     },
     {
       title: "CV",
-      path: `${prefix}/ekayang_CV.pdf`, // Path to your public PDF 
+      path: `${prefix}/festus_CV.pdf`,
       isInternal: false,
     },
   ];

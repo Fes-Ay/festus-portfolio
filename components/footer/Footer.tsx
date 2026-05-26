@@ -7,7 +7,7 @@ function Footer() {
         {/* The inner div centers the content to 1200px */}
         <div className="max-w-[1260px] w-full mx-auto py-8 flex items-center justify-center px-4">
             <p className="m-0 text-sm text-gray-600">
-                © {new Date().getFullYear()} — Edwin Pelpuo Kayang
+                © {new Date().getFullYear()} — Festus Basimtaal Ayembilla
             </p>
             {/* <div className="flex">
                 <a href="/privacy" className="mx-2 text-blue-600 no-underline hover:underline">Privacy</a>
