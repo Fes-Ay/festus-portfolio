@@ -163,17 +163,17 @@ export default function Home() {
               <div className="flex flex-col">
                 <Publication
                   date="CIB W78 2026"
-                  title="GeoAugPT: Deterministic Structural Priors for Indoor Point Cloud Semantic Segmentation in Scan-to-BIM Workflows"
+                  title="BIM-PT: A Hybrid Pipeline with Cross-Area Structural Augmentation for Indoor Point Cloud Semantic Segmentation"
                   authors="Ayembilla, F.B., & Kim, M. K."
                   venue="CIB W78 2026 International Conference on IT in Construction"
                   status="Submitted"
                 />
                 <Publication
-                  date="ISARC 2026"
+                  date="2026"
                   title="An Automated Pipeline for Generating a Multi-Layered Spatial Map for Indoor Robot Navigation from BIM Data"
-                  authors="Ayembilla F.B., KIM T., KIM M., Seo J., Jung In KIM."
-                  venue="International Symposium on Automation and Robotics in Construction (ISARC 2026)"
-                  status="Accepted"
+                  authors="Ayembilla, F. B., Kim, T., Kim, M.-K., Seo, J., & Kim, J. I."
+                  venue="Proceedings of the 43rd ISARC, Singapore, pp. 224–231"
+                  paperUrl="https://doi.org/10.22260/ISARC2026/0030"
                 />
                 <Publication
                   date="i3CE 2026"
@@ -213,7 +213,7 @@ export default function Home() {
                     construction and facility management. Includes an IFC-to-robot
                     conversion pipeline generating maps compatible with ROS2 navigation.
                     Current work investigates a semantic segmentation approach for indoor
-                    structural components (GeoAugPT) to facilitate automated Scan-to-BIM
+                    structural components (BIM-PT) to facilitate automated Scan-to-BIM
                     reconstruction.
                   </p>
                   <p className="text-xs font-mono text-gray-500">
