@@ -12,7 +12,7 @@ interface PublicationProps {
 const Publication = ({ date, title, authors, venue, status, paperUrl }: PublicationProps) => {
   // Logic to highlight your name while keeping others faint
   const renderAuthors = (authorStr: string) => {
-    const namePattern = /(Ayembilla,?\s*F\.?\s*B\.?|AYEMBILLA,?\s*F\.?\s*B\.?|Festus\s+Basimtaal\s+Ayembilla|Ayembilla\s+F\.?B\.?)/g;
+    const namePattern = /(Ayembilla,?\s*F\.?\s*B\.?|AYEMBILLA,?\s*F\.?\s*B\.?|Festus\s+Basimtaal\s+Ayembilla|Ayembilla\s+F\.?B\.?)/;
     const parts = authorStr.split(namePattern);
     
     return parts.map((part, i) => 

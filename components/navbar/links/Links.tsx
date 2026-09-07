@@ -1,6 +1,5 @@
 "use client";
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import React from 'react'
 
 const isProd = process.env.NODE_ENV === 'production';
@@ -30,8 +29,6 @@ const links = [
   ];
 
 const Links = () => {
-    const pathName = usePathname();
-
     return (
         <div className='sm:block flex flex-wrap'>
             {links.map((link) => (

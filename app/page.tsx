@@ -143,16 +143,16 @@ export default function Home() {
                 <Publication
                   date="2026"
                   title="Improving Cross-Facility Generalization of MEP Semantic Segmentation Using Independent-Source Synthetic Point Clouds"
-                  authors="AYEMBILLA, F. B., & Kim, M. K."
+                  authors="Ayembilla, F. B., & Kim, M. K."
                   venue="Automation in Construction"
                   status="Under Review"
                 />
                 <Publication
                   date="2026"
-                  title="Automated Shape-Aware Dimensional Classification and Semantic-Instance Segmentation of Steel Structures from Occluded Point Cloud Data"
-                  authors="Rajendran, M., Ayembilla, F.B., Sim, S. H., Kim, M. K., & Yi, C. Y."
-                  venue="Automation in Construction"
-                  status="Under Review"
+                  title="Automated Shape-Aware Dimensional Classification and Semantic Instance Segmentation of Steel Structures from Occluded Point Cloud Data"
+                  authors="Rajendran, M., Ayembilla, F. B., Sim, S. H., Kim, M. K., & Yi, C. Y."
+                  venue="Automation in Construction, 192, 107241"
+                  paperUrl="https://doi.org/10.1016/j.autcon.2026.107241"
                 />
               </div>
 
@@ -164,9 +164,9 @@ export default function Home() {
                 <Publication
                   date="CIB W78 2026"
                   title="BIM-PT: A Hybrid Pipeline with Cross-Area Structural Augmentation for Indoor Point Cloud Semantic Segmentation"
-                  authors="Ayembilla, F.B., & Kim, M. K."
+                  authors="Ayembilla, F. B., & Kim, M. K."
                   venue="CIB W78 2026 International Conference on IT in Construction"
-                  status="Submitted"
+                  status="Accepted"
                 />
                 <Publication
                   date="2026"
@@ -178,21 +178,21 @@ export default function Home() {
                 <Publication
                   date="i3CE 2026"
                   title="Geometric-Based Dimensional Classification of Steel Structures with Semantic and Instance Segmentation from 3D Point Cloud Data"
-                  authors="Rajendran, M., Ayembilla, F.B., Sim, S. H., & Kim, M. K."
+                  authors="Rajendran, M., Ayembilla, F. B., Sim, S. H., & Kim, M. K."
                   venue="International Conference on Computing in Civil Engineering (i3CE 2026, South Korea)"
                   status="Accepted"
                 />
                 <Publication
                   date="FITAT 2025"
                   title="Completing Occluded Indoor Point Clouds for Enhanced Semantic Segmentation in Scan-to-BIM Workflows"
-                  authors="Dao H., Ayembilla, F.B., Sim, S., Won, J., Kang, M., Yoon, S., Kim, H., Kim M."
+                  authors="Dao, H., Ayembilla, F. B., Sim, S., Won, J., Kang, M., Yoon, S., Kim, H., & Kim, M."
                   venue="FITAT 2025, Ho Chi Minh, Vietnam"
                   status="Accepted"
                 />
                 <Publication
                   date="Nov 2025"
                   title="Improving Generalization of Deep Learning Models in MEP Point Cloud Segmentation Through Synthetic Data Augmentation"
-                  authors="AYEMBILLA, F. B., RAJENDRAN, M., & Min-Koo, K. I. M."
+                  authors="Ayembilla, F. B., Rajendran, M., & Kim, M. K."
                   venue="11th International Conference on Construction Engineering and Project Management (ICCEPM 2025), Jeju, South Korea"
                   paperUrl="https://doi.org/10.6106/ICCEPM.2025.0306"
                 />
