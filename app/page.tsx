@@ -29,7 +29,7 @@ export default function Home() {
               className="rounded-full object-cover"
             />
             <h2 className="text-xl font-semibold mt-4">Festus Basimtaal Ayembilla</h2>
-            <p className="text-md text-gray-600 text-left mt-1">MSc Student</p>
+            <p className="text-md text-gray-600 text-left mt-1">Research Assistant</p>
             <p className="text-md text-gray-600">
               Chungbuk National University
             </p>
@@ -82,12 +82,12 @@ export default function Home() {
               <h2 className="text-3xl font-semibold mb-4">About Me</h2>
               <div className="space-y-4 leading-relaxed text-justify">
                 <p className="text-justify">
-                  I am an <strong>MSc student in Architectural Engineering</strong> at{" "}
-                  <strong>Chungbuk National University</strong>, South Korea, where I
-                  serve as a Graduate Research Assistant at the{" "}
-                  <strong>Smart Constructions and Systems Laboratory</strong> under the
-                  supervision of{" "}
-                  <strong>Prof. Minkoo Kim</strong>. My research lies at the intersection
+                  I am a <strong>Research Assistant</strong> at the{" "}
+                  <strong>Smart Constructions and Systems Laboratory</strong>,{" "}
+                  <strong>Chungbuk National University</strong>, South Korea, working
+                  with <strong>Prof. Minkoo Kim</strong>. I completed my{" "}
+                  <strong>MSc in Architectural Engineering</strong> at the same
+                  laboratory. My research lies at the intersection
                   of <strong>Scan-to-BIM</strong>, <strong>3D Point Cloud Processing</strong>,
                   and <strong>Construction Robotics</strong>.
                 </p>
