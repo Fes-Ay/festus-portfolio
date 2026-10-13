@@ -11,7 +11,7 @@ const prefix = isProd ? '/festus-portfolio' : '';
 
 // Link to the Robot-Adaptive Building presentation (slides + simulation videos).
 // Leave empty to hide the link.
-const robotPresentationUrl = '';
+const robotPresentationUrl = 'https://docs.google.com/presentation/d/1aKRLarQcsNgQddegBb5TercmmDqH14Kx/edit?usp=sharing';
 
 export default function Home() {
   return (

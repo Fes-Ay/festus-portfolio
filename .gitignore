@@ -43,3 +43,4 @@ next-env.d.ts
 # CV drafts kept in the repo root (the published copy lives at public/festus_CV.pdf)
 /*.docx
 /*.pdf
+/*.pptx
