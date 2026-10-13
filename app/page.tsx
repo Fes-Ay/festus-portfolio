@@ -9,6 +9,10 @@ import Publication from "@/components/publication/Publication";
 const isProd = process.env.NODE_ENV === 'production';
 const prefix = isProd ? '/festus-portfolio' : '';
 
+// Link to the Robot-Adaptive Building presentation (slides + simulation videos).
+// Leave empty to hide the link.
+const robotPresentationUrl = '';
+
 export default function Home() {
   return (
     <div className="w-full h-full bg-gray-950 mx-auto min-h-screen flex flex-col items-center">
@@ -142,9 +146,9 @@ export default function Home() {
               <div className="flex flex-col mb-12">
                 <Publication
                   date="2026"
-                  title="Improving Cross-Facility Generalization of MEP Semantic Segmentation Using Independent-Source Synthetic Point Clouds"
+                  title="Improving Cross-Facility MEP Semantic Segmentation Using Shape-Variant Synthetic Point Cloud Data"
                   authors="Ayembilla, F. B., & Kim, M. K."
-                  venue="Automation in Construction"
+                  venue="Advanced Engineering Informatics"
                   status="Under Review"
                 />
                 <Publication
@@ -219,6 +223,18 @@ export default function Home() {
                   <p className="text-xs font-mono text-gray-500">
                     Tools: BIM, IFC, ROS2, Gazebo, Python, GLB/JSON/PGM
                   </p>
+                  {robotPresentationUrl && (
+                    <div className="mt-3">
+                      <a
+                        href={robotPresentationUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 text-xs hover:underline"
+                      >
+                        [ Project Presentation & Simulation Videos ]
+                      </a>
+                    </div>
+                  )}
                 </div>
 
                 {/* TLS Simulation Framework */}
